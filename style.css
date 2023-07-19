@@ -1,0 +1,56 @@
+body { 
+    background-image : linear-gradient(90deg, #CDB4DB, #0096c7);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro {
+    font-weight: 700;
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-section > div {
+    padding: 0.5rem;
+}
+
+.link-section > div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+a {
+    background: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div {
+    padding: 0.5rem;
+}
